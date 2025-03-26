@@ -14,3 +14,4 @@ jobs:
           gpg-passphrase: ${{ secrets.ARTIFACT_SIGNING_GPG_PRIVATE_KEY_PASSWORD }}
           deploy-user: ${{ secrets.DEPLOY_USER_GITHUB_PACKAGES }}
           deploy-password: ${{ secrets.DEPLOY_TOKEN_GITHUB_PACKAGES }}
+          java-version: '21'
