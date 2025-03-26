@@ -26,6 +26,12 @@
         </developer>
     </developers>
 
+    <scm>
+        <url>https://github.com/eitco/documentation-configuration-metadata-processor.git</url>
+        <connection>scm:git:https://github.com/eitco/documentation-configuration-metadata-processor.git</connection>
+        <developerConnection>scm:git:https://github.com/eitco/documentation-configuration-metadata-processor.git</developerConnection>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
