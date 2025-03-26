@@ -6,6 +6,5 @@
 
 # additional-spring-configuration-metadata-processor
 
-This [java annotation processor](https://docs.oracle.com/javase/8/docs/api/javax/annotation/processing/Processor.html) generates additional [spring configuration metadata](https://docs.spring.io/spring-boot/specification/configuration-metadata/annotation-processor.html#appendix.configuration-metadata.annotation-processor.adding-additional-metadata)
-for collections in classes annotated with `@ConfigurationProperties`. This metadata is not required for IDE support. 
-It's main usage is providing data for the [configuration documentation generation plugin](https://github.com/eitco/spring-config-collector-maven-plugin).
+This [java annotation processor](https://docs.oracle.com/javase/8/docs/api/javax/annotation/processing/Processor.html) generates additional spring configuration metadata for the 
+[configuration documentation generation plugin](https://github.com/eitco/spring-config-collector-maven-plugin).

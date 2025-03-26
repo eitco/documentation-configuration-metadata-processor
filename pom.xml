@@ -10,12 +10,13 @@
         <version>0.0.19</version>
     </parent>
 
-    <artifactId>additional-spring-configuration-metadata-processor</artifactId>
+    <artifactId>documentation-configuration-metadata-processor</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>5.3.9</spring.version>
+        <spring-boot.version>3.4.3</spring-boot.version>
     </properties>
 
     <developers>
@@ -29,7 +30,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
-            <version>3.4.3</version>
+            <version>${spring-boot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>${spring-boot.version}</version>
         </dependency>
     </dependencies>
 
