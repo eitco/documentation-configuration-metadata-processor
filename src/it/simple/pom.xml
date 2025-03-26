@@ -11,7 +11,7 @@
     <dependencies>
         <dependency>
             <groupId>@project.groupId@</groupId>
-            <artifactId>additional-spring-configuration-metadata-processor</artifactId>
+            <artifactId>documentation-configuration-metadata-processor</artifactId>
             <version>@project.version@</version>
             <optional>true</optional>
         </dependency>
