@@ -14,3 +14,4 @@ jobs:
           gpg-passphrase: ${{ secrets.ARTIFACT_SIGNING_GPG_PRIVATE_KEY_PASSWORD }}
           deploy-user: ${{ secrets.OSSRH_JIRA_USERNAME }}
           deploy-password: ${{ secrets.OSSRH_JIRA_PASSWORD }}
+          java-version: '21'
